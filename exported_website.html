@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlainPi Web Site</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            min-height: 100vh;
+        }
+        #Player {
+            position: absolute;
+            left: 100px;
+            top: 100px;
+            width: 200px;
+            height: 150px;
+            background: url('player.png') no-repeat center;
+            background-size: cover;
+            background-color: #4CAF50;
+        }
+
+        #Title {
+            position: absolute;
+            left: 100px;
+            top: 50px;
+            color: #333;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        #Btn1 {
+            position: absolute;
+            left: 100px;
+            top: 150px;
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        #Input1 {
+            position: absolute;
+            left: 100px;
+            top: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            width: 200px;
+        }
+
+        #Google {
+            position: absolute;
+            left: 100px;
+            top: 250px;
+            color: #2196F3;
+            text-decoration: none;
+            font-size: 14px;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="Player"></div>
+        <div id="Title">Hello PlainPi!</div>
+        <button id="Btn1" onclick="alert('Tiklandi: Btn1')">Click Me!</button>
+        <input type="text" id="Input1" placeholder="Enter name...">
+        <a href="https://google.com" id="Google" target="_blank">Google</a>
+    </div>
+    <script>
+        // PlainPi Web - Otomatik olusturuldu
+        document.getElementById('Player').style.left = '300px';
+        document.getElementById('Player').style.top = '100px';
+        console.log('Sound: click.wav (sfx)');
+    </script>
+    </div>
+</body>
+</html>

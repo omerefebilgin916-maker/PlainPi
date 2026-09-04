@@ -1,0 +1,19 @@
+Window:[Test] | Size:[800,600]
+Background:[#2d5a27]
+
+Set:[x] | To:[0]
+
+For:[i] | From:[0] | To:[5]
+Add:[x] | By:[1]
+Print:[x = ${x}]
+EndFor:
+
+If:[x > 3]
+Message:[x 3'ten büyük!] | Type:[info]
+Else:
+Message:[x 3'ten küçük!] | Type:[warning]
+EndIf:
+
+Sprite:[player.png] | Name:[Player] | Locate:[100,100]
+Move:[Player] | To:[300,100] | Speed:[5]
+Sound:[click.wav] | Type:[sfx]

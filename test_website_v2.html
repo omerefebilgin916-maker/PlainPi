@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlainPi Web Site</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            min-height: 100vh;
+        }
+        #Header {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 200px;
+            height: 150px;
+            background: url('header.png') no-repeat center;
+            background-size: cover;
+            background-color: #4CAF50;
+        }
+
+        #Title {
+            position: absolute;
+            left: 50px;
+            top: 100px;
+            color: #333;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        #Btn1 {
+            position: absolute;
+            left: 50px;
+            top: 150px;
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        #Input1 {
+            position: absolute;
+            left: 50px;
+            top: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            width: 200px;
+        }
+
+        #Google {
+            position: absolute;
+            left: 50px;
+            top: 250px;
+            color: #2196F3;
+            text-decoration: none;
+            font-size: 14px;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="Header"></div>
+        <div id="Title">PlainPi Web Sitesi</div>
+        <button id="Btn1" onclick="alert('Tiklandi: Btn1')">Tikla!</button>
+        <input type="text" id="Input1" placeholder="Adinizi girin...">
+        <a href="https://google.com" id="Google" target="_blank">Google</a>
+    </div>
+    <script>
+        // PlainPi Web - Otomatik olusturuldu
+        document.getElementById('Header').style.left = '0px';
+        document.getElementById('Header').style.top = '0px';
+        console.log('Sound: click.wav (sfx)');
+    </script>
+    </div>
+</body>
+</html>
