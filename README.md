@@ -232,14 +232,14 @@ EndIf:
 
 ## 📊 Version History
 
-### v2 (2024)
+### v2
 - ✅ Game engine
 - ✅ Web export
 - ✅ IDE
 - ✅ 50+ commands
 - ✅ 4 critical bug fixes
 
-### v1 (2023)
+### v1
 - ✅ Desktop GUI
 - ✅ Variables, loops
 - ✅ File operations
@@ -262,12 +262,5 @@ MIT License - See [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📬 Contact
-
-- GitHub: [@user](https://github.com/user)
-- Email: info@plainpi.com
-- Website: [plainpi.com](https://plainpi.com)
-
----
 
 **Coding is easier with PlainPi! 🍪**
